@@ -1,4 +1,5 @@
---Ryan is gay af
+--Ryan hates gays
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("ImageLabel")
 local TextButton = Instance.new("TextButton")
