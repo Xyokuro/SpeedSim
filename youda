@@ -402,7 +402,7 @@ end)
 
 -- Scripts:
 
-local function WACZUNV_fake_script() -- Frame.LocalScript 
+local function Dragger() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService('UserInputService')
@@ -440,4 +440,4 @@ local function WACZUNV_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WACZUNV_fake_script)()
+coroutine.wrap(Dragger)()
