@@ -100,7 +100,7 @@ TextButton_2.Font = Enum.Font.Nunito
 TextButton_2.Text = "Mythic Drink"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_2.MouseButton1Down:connect(function()
 	local Adtool9= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Mythic Drink")
 	Adtool9.Parent=player.Backpack
 end)
@@ -113,7 +113,7 @@ TextButton_3.Font = Enum.Font.Nunito
 TextButton_3.Text = "Charoite Drink"
 TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_3.MouseButton1Down:connect(function()
 	local Adtool4= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Charoite Drink")
 	Adtool4.Parent=player.Backpack
 end)
@@ -127,7 +127,7 @@ TextButton_4.Font = Enum.Font.Nunito
 TextButton_4.Text = "\"Golden Energy Drink"
 TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_4.MouseButton1Down:connect(function()
 	local Adtool6= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Golden Energy Drink")
 	Adtool6.Parent=player.Backpack
 end)
@@ -141,7 +141,7 @@ TextButton_5.Font = Enum.Font.Nunito
 TextButton_5.Text = "Citrine Drink"
 TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_5.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_5.MouseButton1Down:connect(function()
 	local Adtool5= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Citrine Drink")
 	Adtool5.Parent=player.Backpack
 end)
@@ -155,7 +155,7 @@ TextButton_6.LineHeight = 1.270
 TextButton_6.Text = "Legendary Energy Drink"
 TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_6.TextSize = 10.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_6.MouseButton1Down:connect(function()
 	local Adtool8= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Legendary Energy Drink")
 	Adtool8.Parent=player.Backpack
 end)
@@ -168,7 +168,7 @@ TextButton_7.Font = Enum.Font.Nunito
 TextButton_7.Text = "Gem Drink 3"
 TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_7.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_7.MouseButton1Down:connect(function()
 	local Adtool7= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Gem Drink 3")
 	Adtool7.Parent=player.Backpack
 end)
@@ -182,7 +182,7 @@ TextButton_8.Font = Enum.Font.Nunito
 TextButton_8.Text = "Orange Starry Drink"
 TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_8.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_8.MouseButton1Down:connect(function()
 	local Adtool23= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Orange Starry Drink")
 	Adtool23.Parent=player.Backpack
 end)
@@ -198,7 +198,7 @@ TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_9.TextScaled = true
 TextButton_9.TextSize = 6.000
 TextButton_9.TextWrapped = true
-TextButton.MouseButton1Down:connect(function()
+TextButton_9.MouseButton1Down:connect(function()
 	local Adtool2= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Angelic Energy Drink")
 	Adtool2.Parent=player.Backpack
 end)
@@ -210,7 +210,7 @@ TextButton_10.Font = Enum.Font.Nunito
 TextButton_10.Text = "Purple Fiery Drink"
 TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_10.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_10.MouseButton1Down:connect(function()
 	local Adtool24= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Purple Fiery Lightning Drink")
 	Adtool24.Parent=player.Backpack
 end)
@@ -223,7 +223,7 @@ TextButton_11.Font = Enum.Font.Nunito
 TextButton_11.Text = "Amethyst Drink"
 TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_11.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_11.MouseButton1Down:connect(function()
 	local Adtool1= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Amethyst Drink")
 	Adtool1.Parent=player.Backpack
 end)
@@ -236,7 +236,7 @@ TextButton_12.Font = Enum.Font.Nunito
 TextButton_12.Text = "Gastly Energy Drink"
 TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_12.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_12.MouseButton1Down:connect(function()
 	local Adtool20= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Gastly Energy Drink")
 	Adtool20.Parent=player.Backpack
 end)
@@ -249,7 +249,7 @@ TextButton_13.Font = Enum.Font.Nunito
 TextButton_13.Text = "Aquamarine Drink"
 TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_13.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_13.MouseButton1Down:connect(function()
 	local Adtool3= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Aquamarine Drink")
 	Adtool3.Parent=player.Backpack
 end)
@@ -263,7 +263,7 @@ TextButton_14.Font = Enum.Font.Nunito
 TextButton_14.Text = "Amber Drink"
 TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_14.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_14.MouseButton1Down:connect(function()
 	local Adtool= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Amber Drink")
 	Adtool.Parent=player.Backpack
 end)
@@ -276,7 +276,7 @@ TextButton_15.Font = Enum.Font.Nunito
 TextButton_15.Text = "Stary Drink"
 TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_15.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_15.MouseButton1Down:connect(function()
 	local Adtool13= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Stary Drink")
 	Adtool13.Parent=player.Backpack
 end)
@@ -290,7 +290,7 @@ TextButton_16.Font = Enum.Font.Nunito
 TextButton_16.Text = "Rusted Drink"
 TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_16.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_16.MouseButton1Down:connect(function()
 	local Adtool17= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Rusted Drink")
 	Adtool17.Parent=player.Backpack
 end)
@@ -303,7 +303,7 @@ TextButton_17.Font = Enum.Font.Nunito
 TextButton_17.Text = "Quantum Energy Drink"
 TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_17.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_17.MouseButton1Down:connect(function()
 	local Adtool10= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Quantum Energy Drink")
 	Adtool10.Parent=player.Backpack
 end)
@@ -316,7 +316,7 @@ TextButton_18.Font = Enum.Font.Nunito
 TextButton_18.Text = "Spikey Drink"
 TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_18.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_18.MouseButton1Down:connect(function()
 	local Adtool11= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Spikey Drink")
 	Adtool11.Parent=player.Backpack
 end)
@@ -329,7 +329,7 @@ TextButton_19.Font = Enum.Font.Nunito
 TextButton_19.Text = "Lantern Drink"
 TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_19.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_19.MouseButton1Down:connect(function()
 	local Adtool14= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Lantern Energy Drink")
 	Adtool14.Parent=player.Backpack
 end)
@@ -342,7 +342,7 @@ TextButton_20.Font = Enum.Font.Nunito
 TextButton_20.Text = "Peridot Drink"
 TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_20.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_20.MouseButton1Down:connect(function()
 	local Adtool15= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Peridot Drink")
 	Adtool15.Parent=player.Backpack
 end)
@@ -356,7 +356,7 @@ TextButton_21.Font = Enum.Font.Nunito
 TextButton_21.Text = "Ruby Drink"
 TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_21.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_21.MouseButton1Down:connect(function()
 	local Adtool16= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Ruby Drink")
 	Adtool16.Parent=player.Backpack
 end)
@@ -368,7 +368,7 @@ TextButton_22.Font = Enum.Font.Nunito
 TextButton_22.Text = "Topaz Drink"
 TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_22.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_22.MouseButton1Down:connect(function()
 	local Adtool18= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Topaz Drink")
 	Adtool18.Parent=player.Backpack
 end)
@@ -381,7 +381,7 @@ TextButton_23.Font = Enum.Font.Nunito
 TextButton_23.Text = "Deserted Drink"
 TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_23.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_23.MouseButton1Down:connect(function()
 	local Adtool19= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Deserted Drink")
 	Adtool19.Parent=player.Backpack
 end)
@@ -394,7 +394,7 @@ TextButton_24.Font = Enum.Font.Nunito
 TextButton_24.Text = "Lightning  Drink"
 TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_24.TextSize = 11.000
-TextButton.MouseButton1Down:connect(function()
+TextButton_24.MouseButton1Down:connect(function()
 	local Adtool22= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Lightning Lemon Energy Drink")
 	Adtool22.Parent=player.Backpack
 end)
