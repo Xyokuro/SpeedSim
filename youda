@@ -33,10 +33,36 @@ TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:connect(function()
 	local player=game.Players.LocalPlayer
-	local Adtool= game:GetService("ReplicatedStorage"):WaitForChild("AdminTool"):clone()
-	local Adtool1= game:GetService("ReplicatedStorage"):WaitForChild("InfinityTool"):clone()
+	local Adtool= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Amber Drink")
+	local Adtool1= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Amethyst Drink")
+	local Adtool2= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Angelic Energy Drink")
+	local Adtool3= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Aquamarine Drink")
+	local Adtool4= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Charoite Drink")
+	local Adtool5= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Citrine Drink")
+	local Adtool6= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Golden Energy Drink")
+	local Adtool7= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Gem Drink 3")
+	local Adtool8= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Legendary Energy Drink")
+	local Adtool9= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Mythic Drink")
+	local Adtool10= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Quantum Energy Drink")
+	local Adtool11= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Spikey Drink")
+	local Adtool12= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("The Ultimate Energy Drink")
+	local Adtool13= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Stary Drink")
 	Adtool.Parent=player.Backpack
 	Adtool1.Parent=player.Backpack
+	Adtool2.Parent=player.Backpack
+	Adtool3.Parent=player.Backpack
+	Adtool4.Parent=player.Backpack
+	Adtool5.Parent=player.Backpack
+	Adtool6.Parent=player.Backpack
+	Adtool7.Parent=player.Backpack
+	Adtool8.Parent=player.Backpack
+	Adtool9.Parent=player.Backpack
+	Adtool10.Parent=player.Backpack
+	Adtool11.Parent=player.Backpack
+	Adtool12.Parent=player.Backpack
+	Adtool13.Parent=player.Backpack
+	
+	
 end)
 
 
