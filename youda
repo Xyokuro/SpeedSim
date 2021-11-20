@@ -29,6 +29,7 @@ local TextButton_21 = Instance.new("TextButton")
 local TextButton_22 = Instance.new("TextButton")
 local TextButton_23 = Instance.new("TextButton")
 local TextButton_24 = Instance.new("TextButton")
+local player = game:GetService("Players").LocalPlayer
 
 
 
@@ -131,7 +132,7 @@ TextButton_4.MouseButton1Down:connect(function()
 	local Adtool6= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Golden Energy Drink")
 	Adtool6.Parent=player.Backpack
 end)
-
+--wocky slush
 
 TextButton_5.Parent = Frame
 TextButton_5.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
