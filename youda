@@ -396,7 +396,7 @@ TextButton_24.Text = "Lightning  Drink"
 TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_24.TextSize = 11.000
 TextButton_24.MouseButton1Down:connect(function()
-	local Adtool22= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Lightning Lemon Energy Drink")
+	local Adtool22= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Lightning Lemon Drink")
 	Adtool22.Parent=player.Backpack
 end)
 
