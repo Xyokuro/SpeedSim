@@ -405,7 +405,7 @@ end)
 AAAAAA.Name = "AAAAAA"
 AAAAAA.Parent = Frame
 AAAAAA.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-AAAAAA.Position = UDim2.new(0.732208133, 0, 0.185603723, 0)
+AAAAAA.Position = UDim2.new(0.70862323, 0, 0.185603723, 0)
 AAAAAA.Size = UDim2.new(0, 124, 0, 60)
 AAAAAA.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
 AAAAAA.Font = Enum.Font.Nunito
