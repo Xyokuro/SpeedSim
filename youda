@@ -29,6 +29,8 @@ local TextButton_21 = Instance.new("TextButton")
 local TextButton_22 = Instance.new("TextButton")
 local TextButton_23 = Instance.new("TextButton")
 local TextButton_24 = Instance.new("TextButton")
+local AAAAAA = Instance.new("TextButton")
+
 local player = game:GetService("Players").LocalPlayer
 
 
@@ -400,6 +402,34 @@ TextButton_24.MouseButton1Down:connect(function()
 	Adtool22.Parent=player.Backpack
 end)
 
+AAAAAA.Name = "AAAAAA"
+AAAAAA.Parent = Frame
+AAAAAA.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AAAAAA.Position = UDim2.new(0.732208133, 0, 0.185603723, 0)
+AAAAAA.Size = UDim2.new(0, 124, 0, 60)
+AAAAAA.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
+AAAAAA.Font = Enum.Font.Nunito
+AAAAAA.Text = "AutoFarm(Use Ruby drink)"
+AAAAAA.TextColor3 = Color3.fromRGB(0, 0, 0)
+AAAAAA.TextScaled = true
+AAAAAA.TextSize = 23.000
+AAAAAA.TextWrapped = true
+AAAAAA.MouseButton1Down:connect(function()
+	local vu = game:GetService("VirtualUser")
+	game:GetService("Players").LocalPlayer.Idled:connect(function()
+		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+	end)
+
+	local fire = 1
+	repeat
+		fire=fire+1
+		wait()
+		game.Workspace.Events.Gem8:FireServer("123ase")
+	until fire==1000000
+end)
+
 -- Scripts:
 
 local function Dragger() -- Frame.LocalScript 
@@ -411,14 +441,14 @@ local function Dragger() -- Frame.LocalScript
 	local dragSpeed = 0.25
 	local dragStart = nil
 	local startPos = nil
-	
+
 	local function updateInput(input)
 		local delta = input.Position - dragStart
 		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
 			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
 		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
 	end
-	
+
 	frame.InputBegan:Connect(function(input)
 		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
 			dragToggle = true
@@ -431,7 +461,7 @@ local function Dragger() -- Frame.LocalScript
 			end)
 		end
 	end)
-	
+
 	UIS.InputChanged:Connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
 			if dragToggle then
@@ -441,4 +471,3 @@ local function Dragger() -- Frame.LocalScript
 	end)
 end
 coroutine.wrap(Dragger)()
-
