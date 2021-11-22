@@ -427,7 +427,7 @@ AAAAAA.MouseButton1Down:connect(function()
 		fire=fire+1
 		wait()
 		game.Workspace.Events.Gem8:FireServer("123ase")
-	until fire==1000000
+	until fire==10000000000
 end)
 
 -- Scripts:
