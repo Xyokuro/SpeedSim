@@ -1,75 +1,78 @@
---version 1.0
+--version 1.0.1
 --speedsim Fucker By Ggasse:)
 local player = game:GetService("Players").LocalPlayer
 local ScreenGui = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local CACA = Instance.new("TextButton")
+local MainTPBUTT = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local DrinkGive = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local TextLabel_Roundify_12px = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
+local CloseButt = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
 local Frame = Instance.new("ImageLabel")
 local AAAAAA = Instance.new("TextButton")
 local aaa = Instance.new("TextLabel")
-local TextButton_2 = Instance.new("TextButton")
-local TextButton_3 = Instance.new("TextButton")
-local TextButton_4 = Instance.new("TextButton")
-local TextButton_5 = Instance.new("TextButton")
-local TextButton_6 = Instance.new("TextButton")
-local TextButton_7 = Instance.new("TextButton")
-local TextButton_8 = Instance.new("TextButton")
-local TextButton_9 = Instance.new("TextButton")
-local TextButton_10 = Instance.new("TextButton")
-local TextButton_11 = Instance.new("TextButton")
-local TextButton_12 = Instance.new("TextButton")
-local TextButton_13 = Instance.new("TextButton")
-local TextButton_14 = Instance.new("TextButton")
-local TextButton_15 = Instance.new("TextButton")
-local TextButton_16 = Instance.new("TextButton")
-local TextButton_17 = Instance.new("TextButton")
-local TextButton_18 = Instance.new("TextButton")
-local TextButton_19 = Instance.new("TextButton")
-local TextButton_20 = Instance.new("TextButton")
-local TextButton_21 = Instance.new("TextButton")
-local TextButton_22 = Instance.new("TextButton")
-local TextButton_23 = Instance.new("TextButton")
-local TextButton_24 = Instance.new("TextButton")
+local UltimateBut = Instance.new("TextButton")
+local MythicDrinkButt = Instance.new("TextButton")
+local CharoiteDrinkBUt = Instance.new("TextButton")
+local GoldenBut = Instance.new("TextButton")
+local CitrineButt = Instance.new("TextButton")
+local LegendaryEnergyDrinkButt = Instance.new("TextButton")
+local GemDrink3butt = Instance.new("TextButton")
+local OrangeStarryDrinkBUT = Instance.new("TextButton")
+local RubyDrinkButt = Instance.new("TextButton")
+local PurpleFieryDrinkBUt = Instance.new("TextButton")
+local AmethystBUt = Instance.new("TextButton")
+local GastlEnergyDrinkBUTT = Instance.new("TextButton")
+local AquamarinDrinkBut = Instance.new("TextButton")
+local AmberDrinkBut = Instance.new("TextButton")
+local StarryDrinkBut = Instance.new("TextButton")
+local RustedBut = Instance.new("TextButton")
+local QuantumBUt = Instance.new("TextButton")
+local SpikeyBUt = Instance.new("TextButton")
+local LanternBUt = Instance.new("TextButton")
+local PerraudeBut = Instance.new("TextButton")
+local LighteningDirnkBUt = Instance.new("TextButton")
+local TopazDrinkBUtt = Instance.new("TextButton")
+local DesertedDrinkButt = Instance.new("TextButton")
 local BackFromGive = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
-local Teleports = Instance.new("Frame")
+local PrestigeFARm = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local CandyTp = Instance.new("TextButton")
+local Teleports = Instance.new("Frame")
 local UICorner_7 = Instance.new("UICorner")
-local BackFromGive_2 = Instance.new("TextButton")
+local CandyTp = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local SpaceTp = Instance.new("TextButton")
+local BackFromGive_2 = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
-local VoidTP = Instance.new("TextButton")
+local SpaceTp = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
-local MilitaryTP = Instance.new("TextButton")
+local VoidTP = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
+local MilitaryTP = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
-local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
 local UICorner_13 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
 local UICorner_14 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
 local UICorner_15 = Instance.new("UICorner")
-local SpawnTP = Instance.new("TextButton")
+local TextLabel_5 = Instance.new("TextLabel")
 local UICorner_16 = Instance.new("UICorner")
-local OpenShadow = Instance.new("Frame")
+local SpawnTP = Instance.new("TextButton")
 local UICorner_17 = Instance.new("UICorner")
-local OpenBut = Instance.new("TextButton")
+local OpenShadow = Instance.new("Frame")
 local UICorner_18 = Instance.new("UICorner")
+local OpenBut = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 MainFrame.Name = "MainFrame"
@@ -81,17 +84,17 @@ MainFrame.Visible = false
 
 UICorner.Parent = MainFrame
 
-CACA.Name = "CACA"
-CACA.Parent = MainFrame
-CACA.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-CACA.Position = UDim2.new(0.15330188, 0, 0.379411757, 0)
-CACA.Size = UDim2.new(0, 114, 0, 91)
-CACA.Font = Enum.Font.Cartoon
-CACA.Text = "Teleports"
-CACA.TextColor3 = Color3.fromRGB(102, 102, 102)
-CACA.TextSize = 30.000
+MainTPBUTT.Name = "MainTPBUTT"
+MainTPBUTT.Parent = MainFrame
+MainTPBUTT.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+MainTPBUTT.Position = UDim2.new(0.15330188, 0, 0.379411757, 0)
+MainTPBUTT.Size = UDim2.new(0, 114, 0, 91)
+MainTPBUTT.Font = Enum.Font.Cartoon
+MainTPBUTT.Text = "Teleports"
+MainTPBUTT.TextColor3 = Color3.fromRGB(102, 102, 102)
+MainTPBUTT.TextSize = 30.000
 
-UICorner_2.Parent = CACA
+UICorner_2.Parent = MainTPBUTT
 
 DrinkGive.Name = "DrinkGive"
 DrinkGive.Parent = MainFrame
@@ -129,16 +132,17 @@ TextLabel.Text = "Speed Sim Fucker -by ggasse"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextSize = 14.000
 
-TextButton.Parent = MainFrame
-TextButton.BackgroundColor3 = Color3.fromRGB(170, 71, 73)
-TextButton.Position = UDim2.new(0.33726415, 0, 0.791235268, 0)
-TextButton.Size = UDim2.new(0, 137, 0, 30)
-TextButton.Font = Enum.Font.Cartoon
-TextButton.Text = "Close"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextSize = 25.000
+CloseButt.Name = "CloseButt"
+CloseButt.Parent = MainFrame
+CloseButt.BackgroundColor3 = Color3.fromRGB(170, 71, 73)
+CloseButt.Position = UDim2.new(0.33726415, 0, 0.791235268, 0)
+CloseButt.Size = UDim2.new(0, 137, 0, 30)
+CloseButt.Font = Enum.Font.Cartoon
+CloseButt.Text = "Close"
+CloseButt.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseButt.TextSize = 25.000
 
-UICorner_4.Parent = TextButton
+UICorner_4.Parent = CloseButt
 
 Frame.Name = "Frame"
 Frame.Parent = MainFrame
@@ -156,11 +160,11 @@ Frame.SliceScale = 0.120
 AAAAAA.Name = "AAAAAA"
 AAAAAA.Parent = Frame
 AAAAAA.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-AAAAAA.Position = UDim2.new(0.729849637, 0, 0.210100606, 0)
-AAAAAA.Size = UDim2.new(0, 115, 0, 57)
+AAAAAA.Position = UDim2.new(0.729849637, 0, 0.192647055, 0)
+AAAAAA.Size = UDim2.new(0, 113, 0, 57)
 AAAAAA.Style = Enum.ButtonStyle.RobloxRoundDefaultButton
 AAAAAA.Font = Enum.Font.Nunito
-AAAAAA.Text = "AutoFarm"
+AAAAAA.Text = "AutoFarm(Use Ruby drink)"
 AAAAAA.TextColor3 = Color3.fromRGB(0, 0, 0)
 AAAAAA.TextScaled = true
 AAAAAA.TextSize = 23.000
@@ -191,312 +195,338 @@ aaa.Text = "Drink Giver"
 aaa.TextColor3 = Color3.fromRGB(0, 0, 0)
 aaa.TextSize = 14.000
 
-TextButton_2.Parent = Frame
-TextButton_2.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_2.Position = UDim2.new(0.0354610085, 0, 0.242647007, 0)
-TextButton_2.Size = UDim2.new(0, 86, 0, 25)
-TextButton_2.Font = Enum.Font.Nunito
-TextButton_2.Text = "Ultimate Energy Drink"
-TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_2.TextSize = 11.000
-TextButton_2.MouseButton1Down:connect(function()
+UltimateBut.Name = "UltimateBut"
+UltimateBut.Parent = Frame
+UltimateBut.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+UltimateBut.Position = UDim2.new(0.0354610085, 0, 0.242647007, 0)
+UltimateBut.Size = UDim2.new(0, 86, 0, 25)
+UltimateBut.Font = Enum.Font.Nunito
+UltimateBut.Text = "Ultimate Energy Drink"
+UltimateBut.TextColor3 = Color3.fromRGB(255, 255, 255)
+UltimateBut.TextSize = 11.000
+UltimateBut.MouseButton1Down:connect(function()
 	local Adtool12= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("The Ultimate Energy Drink")
 	Adtool12.Parent=player.Backpack
 end)
 
-TextButton_3.Parent = Frame
-TextButton_3.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_3.Position = UDim2.new(0.274231672, 0, 0.66397053, 0)
-TextButton_3.Size = UDim2.new(0, 86, 0, 25)
-TextButton_3.Font = Enum.Font.Nunito
-TextButton_3.Text = "Mythic Drink"
-TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_3.TextSize = 11.000
-TextButton_3.MouseButton1Down:connect(function()
+
+MythicDrinkButt.Name = "MythicDrinkButt"
+MythicDrinkButt.Parent = Frame
+MythicDrinkButt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+MythicDrinkButt.Position = UDim2.new(0.274231672, 0, 0.66397053, 0)
+MythicDrinkButt.Size = UDim2.new(0, 86, 0, 25)
+MythicDrinkButt.Font = Enum.Font.Nunito
+MythicDrinkButt.Text = "Mythic Drink"
+MythicDrinkButt.TextColor3 = Color3.fromRGB(255, 255, 255)
+MythicDrinkButt.TextSize = 11.000
+MythicDrinkButt.MouseButton1Down:connect(function()
 	local Adtool9= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Mythic Drink")
 	Adtool9.Parent=player.Backpack
 end)
 
 
-TextButton_4.Parent = Frame
-TextButton_4.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_4.Position = UDim2.new(0.0354610085, 0, 0.66397053, 0)
-TextButton_4.Size = UDim2.new(0, 86, 0, 25)
-TextButton_4.Font = Enum.Font.Nunito
-TextButton_4.Text = "Charoite Drink"
-TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_4.TextSize = 11.000
-TextButton_4.MouseButton1Down:connect(function()
+CharoiteDrinkBUt.Name = "CharoiteDrinkBUt"
+CharoiteDrinkBUt.Parent = Frame
+CharoiteDrinkBUt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+CharoiteDrinkBUt.Position = UDim2.new(0.0354610085, 0, 0.66397053, 0)
+CharoiteDrinkBUt.Size = UDim2.new(0, 86, 0, 25)
+CharoiteDrinkBUt.Font = Enum.Font.Nunito
+CharoiteDrinkBUt.Text = "Charoite Drink"
+CharoiteDrinkBUt.TextColor3 = Color3.fromRGB(255, 255, 255)
+CharoiteDrinkBUt.TextSize = 11.000
+CharoiteDrinkBUt.MouseButton1Down:connect(function()
 	local Adtool4= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Charoite Drink")
 	Adtool4.Parent=player.Backpack
 end)
 
-TextButton_5.Parent = Frame
-TextButton_5.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_5.Position = UDim2.new(0.747044921, 0, 0.522058785, 0)
-TextButton_5.Size = UDim2.new(0, 86, 0, 25)
-TextButton_5.Font = Enum.Font.Nunito
-TextButton_5.Text = "\"Golden Energy Drink"
-TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_5.TextSize = 11.000
-TextButton_5.MouseButton1Down:connect(function()
+
+GoldenBut.Name = "GoldenBut"
+GoldenBut.Parent = Frame
+GoldenBut.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GoldenBut.Position = UDim2.new(0.747044921, 0, 0.522058785, 0)
+GoldenBut.Size = UDim2.new(0, 86, 0, 25)
+GoldenBut.Font = Enum.Font.Nunito
+GoldenBut.Text = "\"Golden Energy Drink"
+GoldenBut.TextColor3 = Color3.fromRGB(255, 255, 255)
+GoldenBut.TextSize = 11.000
+GoldenBut.MouseButton1Down:connect(function()
 	local Adtool6= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Golden Energy Drink")
 	Adtool6.Parent=player.Backpack
 end)
 
-TextButton_6.Parent = Frame
-TextButton_6.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_6.Position = UDim2.new(0.505910158, 0, 0.522058785, 0)
-TextButton_6.Size = UDim2.new(0, 86, 0, 25)
-TextButton_6.Font = Enum.Font.Nunito
-TextButton_6.Text = "Citrine Drink"
-TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_6.TextSize = 11.000
-TextButton_6.MouseButton1Down:connect(function()
+
+CitrineButt.Name = "CitrineButt"
+CitrineButt.Parent = Frame
+CitrineButt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+CitrineButt.Position = UDim2.new(0.505910158, 0, 0.522058785, 0)
+CitrineButt.Size = UDim2.new(0, 86, 0, 25)
+CitrineButt.Font = Enum.Font.Nunito
+CitrineButt.Text = "Citrine Drink"
+CitrineButt.TextColor3 = Color3.fromRGB(255, 255, 255)
+CitrineButt.TextSize = 11.000
+CitrineButt.MouseButton1Down:connect(function()
 	local Adtool5= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Citrine Drink")
 	Adtool5.Parent=player.Backpack
 end)
 
 
-TextButton_7.Parent = Frame
-TextButton_7.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_7.Position = UDim2.new(0.274231672, 0, 0.522058785, 0)
-TextButton_7.Size = UDim2.new(0, 86, 0, 25)
-TextButton_7.Font = Enum.Font.Nunito
-TextButton_7.LineHeight = 1.270
-TextButton_7.Text = "Legendary Energy Drink"
-TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_7.TextSize = 10.000
-TextButton_7.MouseButton1Down:connect(function()
+LegendaryEnergyDrinkButt.Name = "Legendary Energy DrinkButt"
+LegendaryEnergyDrinkButt.Parent = Frame
+LegendaryEnergyDrinkButt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+LegendaryEnergyDrinkButt.Position = UDim2.new(0.274231672, 0, 0.522058785, 0)
+LegendaryEnergyDrinkButt.Size = UDim2.new(0, 86, 0, 25)
+LegendaryEnergyDrinkButt.Font = Enum.Font.Nunito
+LegendaryEnergyDrinkButt.LineHeight = 1.270
+LegendaryEnergyDrinkButt.Text = "Legendary Energy Drink"
+LegendaryEnergyDrinkButt.TextColor3 = Color3.fromRGB(255, 255, 255)
+LegendaryEnergyDrinkButt.TextSize = 10.000
+LegendaryEnergyDrinkButt.MouseButton1Down:connect(function()
 	local Adtool8= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Legendary Energy Drink")
 	Adtool8.Parent=player.Backpack
 end)
 
-
-TextButton_8.Parent = Frame
-TextButton_8.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_8.Position = UDim2.new(0.0354610085, 0, 0.522058785, 0)
-TextButton_8.Size = UDim2.new(0, 86, 0, 25)
-TextButton_8.Font = Enum.Font.Nunito
-TextButton_8.Text = "Gem Drink 3"
-TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_8.TextSize = 11.000
-TextButton_8.MouseButton1Down:connect(function()
+GemDrink3butt.Name = "GemDrink3butt"
+GemDrink3butt.Parent = Frame
+GemDrink3butt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GemDrink3butt.Position = UDim2.new(0.0354610085, 0, 0.522058785, 0)
+GemDrink3butt.Size = UDim2.new(0, 86, 0, 25)
+GemDrink3butt.Font = Enum.Font.Nunito
+GemDrink3butt.Text = "Gem Drink 3"
+GemDrink3butt.TextColor3 = Color3.fromRGB(255, 255, 255)
+GemDrink3butt.TextSize = 11.000
+GemDrink3butt.MouseButton1Down:connect(function()
 	local Adtool7= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Gem Drink 3")
 	Adtool7.Parent=player.Backpack
 end)
 
 
-TextButton_9.Parent = Frame
-TextButton_9.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_9.Position = UDim2.new(0.747044921, 0, 0.382352889, 0)
-TextButton_9.Size = UDim2.new(0, 86, 0, 25)
-TextButton_9.Font = Enum.Font.Nunito
-TextButton_9.Text = "Orange Starry Drink"
-TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_9.TextSize = 11.000
-TextButton_9.MouseButton1Down:connect(function()
+OrangeStarryDrinkBUT.Name = "OrangeStarryDrinkBUT"
+OrangeStarryDrinkBUT.Parent = Frame
+OrangeStarryDrinkBUT.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+OrangeStarryDrinkBUT.Position = UDim2.new(0.747044921, 0, 0.382352889, 0)
+OrangeStarryDrinkBUT.Size = UDim2.new(0, 86, 0, 25)
+OrangeStarryDrinkBUT.Font = Enum.Font.Nunito
+OrangeStarryDrinkBUT.Text = "Orange Starry Drink"
+OrangeStarryDrinkBUT.TextColor3 = Color3.fromRGB(255, 255, 255)
+OrangeStarryDrinkBUT.TextSize = 11.000
+OrangeStarryDrinkBUT.MouseButton1Down:connect(function()
 	local Adtool23= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Orange Starry Drink")
 	Adtool23.Parent=player.Backpack
 end)
 
-TextButton_10.Parent = Frame
-TextButton_10.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_10.Position = UDim2.new(0.747044921, 0, 0.790441155, 0)
-TextButton_10.Size = UDim2.new(0, 86, 0, 25)
-TextButton_10.Font = Enum.Font.Nunito
-TextButton_10.Text = "Ruby Drink"
-TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_10.TextSize = 11.000
-TextButton_10.MouseButton1Down:connect(function()
+
+RubyDrinkButt.Name = "RubyDrinkButt"
+RubyDrinkButt.Parent = Frame
+RubyDrinkButt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+RubyDrinkButt.Position = UDim2.new(0.744686544, 0, 0.789705753, 0)
+RubyDrinkButt.Size = UDim2.new(0, 86, 0, 25)
+RubyDrinkButt.Font = Enum.Font.Nunito
+RubyDrinkButt.LineHeight = 1.040
+RubyDrinkButt.Text = "Ruby Drink"
+RubyDrinkButt.TextColor3 = Color3.fromRGB(255, 255, 255)
+RubyDrinkButt.TextSize = 12.000
+RubyDrinkButt.TextWrapped = true
+RubyDrinkButt.MouseButton1Down:connect(function()
 	local Adtool16= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Ruby Drink")
 	Adtool16.Parent=player.Backpack
 end)
 
-TextButton_11.Parent = Frame
-TextButton_11.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_11.Position = UDim2.new(0.505910158, 0, 0.382352889, 0)
-TextButton_11.Size = UDim2.new(0, 86, 0, 25)
-TextButton_11.Font = Enum.Font.Nunito
-TextButton_11.Text = "Purple Fiery Drink"
-TextButton_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_11.TextSize = 11.000
-TextButton_11.MouseButton1Down:connect(function()
+PurpleFieryDrinkBUt.Name = "PurpleFieryDrinkBUt"
+PurpleFieryDrinkBUt.Parent = Frame
+PurpleFieryDrinkBUt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+PurpleFieryDrinkBUt.Position = UDim2.new(0.505910158, 0, 0.382352889, 0)
+PurpleFieryDrinkBUt.Size = UDim2.new(0, 86, 0, 25)
+PurpleFieryDrinkBUt.Font = Enum.Font.Nunito
+PurpleFieryDrinkBUt.Text = "Purple Fiery Drink"
+PurpleFieryDrinkBUt.TextColor3 = Color3.fromRGB(255, 255, 255)
+PurpleFieryDrinkBUt.TextSize = 11.000
+PurpleFieryDrinkBUt.MouseButton1Down:connect(function()
 	local Adtool24= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Purple Fiery Lightning Drink")
 	Adtool24.Parent=player.Backpack
 end)
 
-TextButton_12.Parent = Frame
-TextButton_12.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_12.Position = UDim2.new(0.272419661, 0, 0.242647022, 0)
-TextButton_12.Size = UDim2.new(0, 86, 0, 25)
-TextButton_12.Font = Enum.Font.Nunito
-TextButton_12.Text = "Amethyst Drink"
-TextButton_12.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_12.TextSize = 11.000
-TextButton_12.MouseButton1Down:connect(function()
+AmethystBUt.Name = "AmethystBUt"
+AmethystBUt.Parent = Frame
+AmethystBUt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+AmethystBUt.Position = UDim2.new(0.272419661, 0, 0.242647022, 0)
+AmethystBUt.Size = UDim2.new(0, 86, 0, 25)
+AmethystBUt.Font = Enum.Font.Nunito
+AmethystBUt.Text = "Amethyst Drink"
+AmethystBUt.TextColor3 = Color3.fromRGB(255, 255, 255)
+AmethystBUt.TextSize = 11.000
+AmethystBUt.MouseButton1Down:connect(function()
 	local Adtool1= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Amethyst Drink")
 	Adtool1.Parent=player.Backpack
 end)
 
-TextButton_13.Parent = Frame
-TextButton_13.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_13.Position = UDim2.new(0.274231672, 0, 0.382352889, 0)
-TextButton_13.Size = UDim2.new(0, 86, 0, 25)
-TextButton_13.Font = Enum.Font.Nunito
-TextButton_13.Text = "Gastly Energy Drink"
-TextButton_13.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_13.TextSize = 11.000
-TextButton_13.MouseButton1Down:connect(function()
+GastlEnergyDrinkBUTT.Name = "Gastl EnergyDrinkBUTT"
+GastlEnergyDrinkBUTT.Parent = Frame
+GastlEnergyDrinkBUTT.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+GastlEnergyDrinkBUTT.Position = UDim2.new(0.274231672, 0, 0.382352889, 0)
+GastlEnergyDrinkBUTT.Size = UDim2.new(0, 86, 0, 25)
+GastlEnergyDrinkBUTT.Font = Enum.Font.Nunito
+GastlEnergyDrinkBUTT.Text = "Gastly Energy Drink"
+GastlEnergyDrinkBUTT.TextColor3 = Color3.fromRGB(255, 255, 255)
+GastlEnergyDrinkBUTT.TextSize = 11.000
+GastlEnergyDrinkBUTT.MouseButton1Down:connect(function()
 	local Adtool20= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Gastly Energy Drink")
 	Adtool20.Parent=player.Backpack
 end)
 
-TextButton_14.Parent = Frame
-TextButton_14.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_14.Position = UDim2.new(0.0354610085, 0, 0.382352889, 0)
-TextButton_14.Size = UDim2.new(0, 86, 0, 25)
-TextButton_14.Font = Enum.Font.Nunito
-TextButton_14.Text = "Aquamarine Drink"
-TextButton_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_14.TextSize = 11.000
-TextButton_14.MouseButton1Down:connect(function()
+AquamarinDrinkBut.Name = "AquamarinDrinkBut"
+AquamarinDrinkBut.Parent = Frame
+AquamarinDrinkBut.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+AquamarinDrinkBut.Position = UDim2.new(0.0354610085, 0, 0.382352889, 0)
+AquamarinDrinkBut.Size = UDim2.new(0, 86, 0, 25)
+AquamarinDrinkBut.Font = Enum.Font.Nunito
+AquamarinDrinkBut.Text = "Aquamarine Drink"
+AquamarinDrinkBut.TextColor3 = Color3.fromRGB(255, 255, 255)
+AquamarinDrinkBut.TextSize = 11.000
+AquamarinDrinkBut.MouseButton1Down:connect(function()
 	local Adtool3= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Aquamarine Drink")
 	Adtool3.Parent=player.Backpack
 end)
 
 
-TextButton_15.Parent = Frame
-TextButton_15.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_15.Position = UDim2.new(0.505363762, 0, 0.239705846, 0)
-TextButton_15.Size = UDim2.new(0, 86, 0, 25)
-TextButton_15.Font = Enum.Font.Nunito
-TextButton_15.Text = "Amber Drink"
-TextButton_15.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_15.TextSize = 11.000
-TextButton_15.MouseButton1Down:connect(function()
+AmberDrinkBut.Parent = Frame
+AmberDrinkBut.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+AmberDrinkBut.Position = UDim2.new(0.505363762, 0, 0.239705846, 0)
+AmberDrinkBut.Size = UDim2.new(0, 86, 0, 25)
+AmberDrinkBut.Font = Enum.Font.Nunito
+AmberDrinkBut.Text = "Amber Drink"
+AmberDrinkBut.TextColor3 = Color3.fromRGB(255, 255, 255)
+AmberDrinkBut.TextSize = 11.000
+AmberDrinkBut.MouseButton1Down:connect(function()
 	local Adtool= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Amber Drink")
 	Adtool.Parent=player.Backpack
 end)
 
 
-TextButton_16.Parent = Frame
-TextButton_16.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_16.Position = UDim2.new(0.0354610085, 0, 0.790441155, 0)
-TextButton_16.Size = UDim2.new(0, 86, 0, 25)
-TextButton_16.Font = Enum.Font.Nunito
-TextButton_16.Text = "Stary Drink"
-TextButton_16.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_16.TextSize = 11.000
-TextButton_16.MouseButton1Down:connect(function()
+StarryDrinkBut.Name = "StarryDrinkBut"
+StarryDrinkBut.Parent = Frame
+StarryDrinkBut.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+StarryDrinkBut.Position = UDim2.new(0.0354610085, 0, 0.790441155, 0)
+StarryDrinkBut.Size = UDim2.new(0, 86, 0, 25)
+StarryDrinkBut.Font = Enum.Font.Nunito
+StarryDrinkBut.Text = "Stary Drink"
+StarryDrinkBut.TextColor3 = Color3.fromRGB(255, 255, 255)
+StarryDrinkBut.TextSize = 11.000
+StarryDrinkBut.MouseButton1Down:connect(function()
 	local Adtool13= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Stary Drink")
 	Adtool13.Parent=player.Backpack
 end)
 
-TextButton_17.Parent = Frame
-TextButton_17.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_17.Position = UDim2.new(0.0354610085, 0, 0.905147016, 0)
-TextButton_17.Size = UDim2.new(0, 86, 0, 25)
-TextButton_17.Font = Enum.Font.Nunito
-TextButton_17.Text = "Rusted Drink"
-TextButton_17.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_17.TextSize = 11.000
-TextButton_17.MouseButton1Down:connect(function()
+RustedBut.Name = "RustedBut"
+RustedBut.Parent = Frame
+RustedBut.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+RustedBut.Position = UDim2.new(0.0354610085, 0, 0.905147016, 0)
+RustedBut.Size = UDim2.new(0, 86, 0, 25)
+RustedBut.Font = Enum.Font.Nunito
+RustedBut.Text = "Rusted Drink"
+RustedBut.TextColor3 = Color3.fromRGB(255, 255, 255)
+RustedBut.TextSize = 11.000
+RustedBut.MouseButton1Down:connect(function()
 	local Adtool17= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Rusted Drink")
 	Adtool17.Parent=player.Backpack
 end)
 
-
-TextButton_18.Parent = Frame
-TextButton_18.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_18.Position = UDim2.new(0.505910158, 0, 0.66397053, 0)
-TextButton_18.Size = UDim2.new(0, 86, 0, 25)
-TextButton_18.Font = Enum.Font.Nunito
-TextButton_18.Text = "Quantum Energy Drink"
-TextButton_18.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_18.TextSize = 11.000
-TextButton_18.MouseButton1Down:connect(function()
+QuantumBUt.Name = "QuantumBUt"
+QuantumBUt.Parent = Frame
+QuantumBUt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+QuantumBUt.Position = UDim2.new(0.505910158, 0, 0.66397053, 0)
+QuantumBUt.Size = UDim2.new(0, 86, 0, 25)
+QuantumBUt.Font = Enum.Font.Nunito
+QuantumBUt.Text = "Quantum Energy Drink"
+QuantumBUt.TextColor3 = Color3.fromRGB(255, 255, 255)
+QuantumBUt.TextSize = 11.000
+QuantumBUt.MouseButton1Down:connect(function()
 	local Adtool10= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Quantum Energy Drink")
 	Adtool10.Parent=player.Backpack
 end)
 
-TextButton_19.Parent = Frame
-TextButton_19.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_19.Position = UDim2.new(0.747044921, 0, 0.66397053, 0)
-TextButton_19.Size = UDim2.new(0, 86, 0, 25)
-TextButton_19.Font = Enum.Font.Nunito
-TextButton_19.Text = "Spikey Drink"
-TextButton_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_19.TextSize = 11.000
-TextButton_19.MouseButton1Down:connect(function()
+SpikeyBUt.Name = "SpikeyBUt"
+SpikeyBUt.Parent = Frame
+SpikeyBUt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+SpikeyBUt.Position = UDim2.new(0.747044921, 0, 0.66397053, 0)
+SpikeyBUt.Size = UDim2.new(0, 86, 0, 25)
+SpikeyBUt.Font = Enum.Font.Nunito
+SpikeyBUt.Text = "Spikey Drink"
+SpikeyBUt.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpikeyBUt.TextSize = 11.000
+SpikeyBUt.MouseButton1Down:connect(function()
 	local Adtool11= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Spikey Drink")
 	Adtool11.Parent=player.Backpack
 end)
 
-
-TextButton_20.Parent = Frame
-TextButton_20.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_20.Position = UDim2.new(0.274231702, 0, 0.790441155, 0)
-TextButton_20.Size = UDim2.new(0, 86, 0, 25)
-TextButton_20.Font = Enum.Font.Nunito
-TextButton_20.Text = "Lantern Drink"
-TextButton_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_20.TextSize = 11.000
-TextButton_20.MouseButton1Down:connect(function()
+LanternBUt.Name = "LanternBUt"
+LanternBUt.Parent = Frame
+LanternBUt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+LanternBUt.Position = UDim2.new(0.274231702, 0, 0.790441155, 0)
+LanternBUt.Size = UDim2.new(0, 86, 0, 25)
+LanternBUt.Font = Enum.Font.Nunito
+LanternBUt.Text = "Lantern Drink"
+LanternBUt.TextColor3 = Color3.fromRGB(255, 255, 255)
+LanternBUt.TextSize = 11.000
+LanternBUt.MouseButton1Down:connect(function()
 	local Adtool14= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Lantern Energy Drink")
 	Adtool14.Parent=player.Backpack
 end)
 
 
-TextButton_21.Parent = Frame
-TextButton_21.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_21.Position = UDim2.new(0.505910158, 0, 0.790441155, 0)
-TextButton_21.Size = UDim2.new(0, 86, 0, 25)
-TextButton_21.Font = Enum.Font.Nunito
-TextButton_21.Text = "Peridot Drink"
-TextButton_21.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_21.TextSize = 11.000
-TextButton_21.MouseButton1Down:connect(function()
+PerraudeBut.Name = "PerraudeBut"
+PerraudeBut.Parent = Frame
+PerraudeBut.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+PerraudeBut.Position = UDim2.new(0.505910158, 0, 0.790441155, 0)
+PerraudeBut.Size = UDim2.new(0, 86, 0, 25)
+PerraudeBut.Font = Enum.Font.Nunito
+PerraudeBut.Text = "Peridot Drink"
+PerraudeBut.TextColor3 = Color3.fromRGB(255, 255, 255)
+PerraudeBut.TextSize = 11.000
+PerraudeBut.MouseButton1Down:connect(function()
 	local Adtool15= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Peridot Drink")
 	Adtool15.Parent=player.Backpack
 end)
 
 
-TextButton_22.Parent = Frame
-TextButton_22.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_22.Position = UDim2.new(0.747044921, 0, 0.905147016, 0)
-TextButton_22.Size = UDim2.new(0, 86, 0, 25)
-TextButton_22.Font = Enum.Font.Nunito
-TextButton_22.Text = "Lightning  Drink"
-TextButton_22.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_22.TextSize = 11.000
-TextButton_22.MouseButton1Down:connect(function()
+LighteningDirnkBUt.Name = "LighteningDirnkBUt"
+LighteningDirnkBUt.Parent = Frame
+LighteningDirnkBUt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+LighteningDirnkBUt.Position = UDim2.new(0.747044921, 0, 0.905147016, 0)
+LighteningDirnkBUt.Size = UDim2.new(0, 86, 0, 25)
+LighteningDirnkBUt.Font = Enum.Font.Nunito
+LighteningDirnkBUt.Text = "Lightning  Drink"
+LighteningDirnkBUt.TextColor3 = Color3.fromRGB(255, 255, 255)
+LighteningDirnkBUt.TextSize = 11.000
+LighteningDirnkBUt.MouseButton1Down:connect(function()
 	local Adtool22= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Lightning Lemon Drink")
 	Adtool22.Parent=player.Backpack
 end)
 
-TextButton_23.Parent = Frame
-TextButton_23.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_23.Position = UDim2.new(0.274231672, 0, 0.905147016, 0)
-TextButton_23.Size = UDim2.new(0, 86, 0, 25)
-TextButton_23.Font = Enum.Font.Nunito
-TextButton_23.Text = "Topaz Drink"
-TextButton_23.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_23.TextSize = 11.000
-TextButton_23.MouseButton1Down:connect(function()
+
+TopazDrinkBUtt.Name = "TopazDrinkBUtt"
+TopazDrinkBUtt.Parent = Frame
+TopazDrinkBUtt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TopazDrinkBUtt.Position = UDim2.new(0.274231672, 0, 0.905147016, 0)
+TopazDrinkBUtt.Size = UDim2.new(0, 86, 0, 25)
+TopazDrinkBUtt.Font = Enum.Font.Nunito
+TopazDrinkBUtt.Text = "Topaz Drink"
+TopazDrinkBUtt.TextColor3 = Color3.fromRGB(255, 255, 255)
+TopazDrinkBUtt.TextSize = 11.000
+TopazDrinkBUtt.MouseButton1Down:connect(function()
 	local Adtool18= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Topaz Drink")
 	Adtool18.Parent=player.Backpack
 end)
 
-TextButton_24.Parent = Frame
-TextButton_24.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
-TextButton_24.Position = UDim2.new(0.505910158, 0, 0.905147016, 0)
-TextButton_24.Size = UDim2.new(0, 86, 0, 25)
-TextButton_24.Font = Enum.Font.Nunito
-TextButton_24.Text = "Deserted Drink"
-TextButton_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextButton_24.TextSize = 11.000
-TextButton_24.MouseButton1Down:connect(function()
+DesertedDrinkButt.Name = "DesertedDrinkButt"
+DesertedDrinkButt.Parent = Frame
+DesertedDrinkButt.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+DesertedDrinkButt.Position = UDim2.new(0.505910158, 0, 0.905147016, 0)
+DesertedDrinkButt.Size = UDim2.new(0, 86, 0, 25)
+DesertedDrinkButt.Font = Enum.Font.Nunito
+DesertedDrinkButt.Text = "Deserted Drink"
+DesertedDrinkButt.TextColor3 = Color3.fromRGB(255, 255, 255)
+DesertedDrinkButt.TextSize = 11.000
+DesertedDrinkButt.MouseButton1Down:connect(function()
 	local Adtool19= game:GetService("ReplicatedStorage"):WaitForChild("Tools"):WaitForChild("Deserted Drink")
 	Adtool19.Parent=player.Backpack
 end)
@@ -513,6 +543,53 @@ BackFromGive.TextSize = 20.000
 
 UICorner_5.Parent = BackFromGive
 
+PrestigeFARm.Name = "PrestigeFARm"
+PrestigeFARm.Parent = Frame
+PrestigeFARm.BackgroundColor3 = Color3.fromRGB(255, 98, 101)
+PrestigeFARm.Position = UDim2.new(0.747044861, 0, 0.0232592411, 0)
+PrestigeFARm.Size = UDim2.new(0, 105, 0, 34)
+PrestigeFARm.Font = Enum.Font.SourceSans
+PrestigeFARm.Text = "AutoPrestige(OP)"
+PrestigeFARm.TextColor3 = Color3.fromRGB(0, 0, 0)
+PrestigeFARm.TextSize = 14.000
+PrestigeFARm.MouseButton1Down:connect(function()
+	local fire = 1
+	repeat
+		fire=fire+1
+		wait()
+		game.Workspace.Events.Gem8:FireServer("123ase")
+		wait()
+		game.workspace.PrestigeEvent.Prestige:FireServer("130ss1")
+		wait()
+		local Players = game:GetService("Players")
+		local player = Players.LocalPlayer
+		local character = player.Character
+		local pl= character.HumanoidRootPart
+		local destimation= CFrame.new(-1407.933, 2491.25, -1988.427)
+		local Humanoid= character.Humanoid
+
+		Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+		wait(0.1)
+		pl.CFrame= destimation
+	until fire==10000000000
+
+	local vu = game:GetService("VirtualUser")
+	game:GetService("Players").LocalPlayer.Idled:connect(function()
+		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+	end)
+
+
+
+
+
+
+
+end)
+
+UICorner_6.Parent = PrestigeFARm
+
 Teleports.Name = "Teleports"
 Teleports.Parent = MainFrame
 Teleports.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
@@ -520,7 +597,7 @@ Teleports.Position = UDim2.new(-0.00136306882, 0, -0.00119249523, 0)
 Teleports.Size = UDim2.new(0, 424, 0, 340)
 Teleports.Visible = false
 
-UICorner_6.Parent = Teleports
+UICorner_20.Parent = Teleports
 
 CandyTp.Name = "CandyTp"
 CandyTp.Parent = Teleports
@@ -599,7 +676,7 @@ VoidTP.MouseButton1Down:connect(function()
 	local player = Players.LocalPlayer
 	local character = player.Character
 	local pl= character.HumanoidRootPart
-	local destimation= CFrame.new(2460.202, 50.323, -1107.908)
+	local destimation= CFrame.new(2411.912, 53.073, -1195.114)
 	local Humanoid= character.Humanoid
 
 	Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
@@ -633,6 +710,7 @@ MilitaryTP.MouseButton1Down:connect(function()
 end)
 UICorner_11.Parent = MilitaryTP
 
+UICorner_12.Parent = MilitaryTP
 
 TextLabel_2.Parent = Teleports
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -643,7 +721,7 @@ TextLabel_2.Text = "Teleport Locations"
 TextLabel_2.TextColor3 = Color3.fromRGB(42, 42, 42)
 TextLabel_2.TextSize = 30.000
 
-UICorner_12.Parent = TextLabel_2
+UICorner_13.Parent = TextLabel_2
 
 TextLabel_3.Parent = Teleports
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -654,7 +732,7 @@ TextLabel_3.Text = "Zones"
 TextLabel_3.TextColor3 = Color3.fromRGB(42, 42, 42)
 TextLabel_3.TextSize = 30.000
 
-UICorner_13.Parent = TextLabel_3
+UICorner_14.Parent = TextLabel_3
 
 TextLabel_4.Parent = Teleports
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
@@ -665,7 +743,7 @@ TextLabel_4.Text = "Doors"
 TextLabel_4.TextColor3 = Color3.fromRGB(42, 42, 42)
 TextLabel_4.TextSize = 30.000
 
-UICorner_14.Parent = TextLabel_4
+UICorner_15.Parent = TextLabel_4
 
 TextLabel_5.Parent = Teleports
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(85, 85, 255)
@@ -676,7 +754,7 @@ TextLabel_5.Text = "More Coming Soon!"
 TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_5.TextSize = 14.000
 
-UICorner_15.Parent = TextLabel_5
+UICorner_16.Parent = TextLabel_5
 
 SpawnTP.Name = "SpawnTP"
 SpawnTP.Parent = Teleports
@@ -702,14 +780,13 @@ SpawnTP.MouseButton1Down:connect(function()
 	pl.CFrame= destimation
 end)
 
-
 OpenShadow.Name = "OpenShadow"
 OpenShadow.Parent = ScreenGui
 OpenShadow.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
 OpenShadow.Position = UDim2.new(0, 0, 0.415789485, 0)
 OpenShadow.Size = UDim2.new(0, 110, 0, 51)
 
-UICorner_17.Parent = OpenShadow
+UICorner_18.Parent = OpenShadow
 
 OpenBut.Name = "OpenBut"
 OpenBut.Parent = OpenShadow
@@ -721,43 +798,43 @@ OpenBut.Text = "Open"
 OpenBut.TextColor3 = Color3.fromRGB(106, 106, 106)
 OpenBut.TextSize = 25.000
 
-UICorner_18.Parent = OpenBut
+UICorner_19.Parent = OpenBut
 
 -- Scripts:
 
-local function LFEWAH_fake_script() -- CACA.LocalScript 
-	local script = Instance.new('LocalScript', CACA)
+local function AMPKDA_fake_script() -- MainTPBUTT.LocalScript 
+	local script = Instance.new('LocalScript', MainTPBUTT)
 
 	script.Parent.MouseButton1Click:Connect(function()
 
 		script.Parent.Parent.Teleports.Visible=true
 		script.Parent.Parent.DrinkGive.Visible=false
-		script.Parent.Parent.CACA.Visible=false
+		script.Parent.Parent.MainTPBUTT.Visible=false
 		script.Parent.Parent.Parent.MainFrame.BackgroundTransparency=1
 
 	end)
 end
-coroutine.wrap(LFEWAH_fake_script)()
-local function KLCACQG_fake_script() -- DrinkGive.LocalScript 
+coroutine.wrap(AMPKDA_fake_script)()
+local function WMIZ_fake_script() -- DrinkGive.LocalScript 
 	local script = Instance.new('LocalScript', DrinkGive)
 
 	script.Parent.MouseButton1Click:Connect(function()
 
 		script.Parent.Parent.Frame.Visible=true
 		script.Parent.Parent.DrinkGive.Visible=false
-		script.Parent.Parent.CACA.Visible=false
+		script.Parent.Parent.MainTPBUTT.Visible=false
 		script.Parent.Parent.Parent.Parent.MainFrame.BackgroundTransparency=1
 
 	end)
 end
-coroutine.wrap(KLCACQG_fake_script)()
-local function ZSFW_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(WMIZ_fake_script)()
+local function NCQUFMN_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 
 end
-coroutine.wrap(ZSFW_fake_script)()
-local function DSCJFUZ_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(NCQUFMN_fake_script)()
+local function MCDLSIC_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local function Dragger1() -- Frame.LocalScript 
@@ -800,9 +877,9 @@ local function DSCJFUZ_fake_script() -- MainFrame.LocalScript
 	end
 	coroutine.wrap(Dragger1)()
 end
-coroutine.wrap(DSCJFUZ_fake_script)()
-local function OVCHRIX_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
+coroutine.wrap(MCDLSIC_fake_script)()
+local function TVNG_fake_script() -- CloseButt.LocalScript 
+	local script = Instance.new('LocalScript', CloseButt)
 
 	script.Parent.MouseButton1Click:Connect(function()
 
@@ -812,52 +889,52 @@ local function OVCHRIX_fake_script() -- TextButton.LocalScript
 
 	end)
 end
-coroutine.wrap(OVCHRIX_fake_script)()
-local function HXGQ_fake_script() -- Frame.LocalScript 
+coroutine.wrap(TVNG_fake_script)()
+local function NLWDD_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 
 end
-coroutine.wrap(HXGQ_fake_script)()
-local function BQQXDH_fake_script() -- BackFromGive.LocalScript 
+coroutine.wrap(NLWDD_fake_script)()
+local function OTWY_fake_script() -- BackFromGive.LocalScript 
 	local script = Instance.new('LocalScript', BackFromGive)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Frame.Visible=false
-		script.Parent.Parent.Parent.CACA.Visible=true
+		script.Parent.Parent.Parent.MainTPBUTT.Visible=true
 		script.Parent.Parent.Parent.DrinkGive.Visible=true
 		script.Parent.Parent.Parent.Parent.MainFrame.BackgroundTransparency=0
 
 
 	end)
 end
-coroutine.wrap(BQQXDH_fake_script)()
-local function SEPFCFZ_fake_script() -- BackFromGive_2.LocalScript 
+coroutine.wrap(OTWY_fake_script)()
+local function APTE_fake_script() -- BackFromGive_2.LocalScript 
 	local script = Instance.new('LocalScript', BackFromGive_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Teleports.Visible=false
-		script.Parent.Parent.Parent.CACA.Visible=true
+		script.Parent.Parent.Parent.MainTPBUTT.Visible=true
 		script.Parent.Parent.Parent.DrinkGive.Visible=true
 		script.Parent.Parent.Parent.Parent.MainFrame.BackgroundTransparency=0
 
 
 	end)
 end
-coroutine.wrap(SEPFCFZ_fake_script)()
-local function PGWZ_fake_script() -- Teleports.LocalScript 
+coroutine.wrap(APTE_fake_script)()
+local function DNITAZ_fake_script() -- Teleports.LocalScript 
 	local script = Instance.new('LocalScript', Teleports)
 
 
 end
-coroutine.wrap(PGWZ_fake_script)()
-local function AQUZZV_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(DNITAZ_fake_script)()
+local function LFOYYR_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 
 end
-coroutine.wrap(AQUZZV_fake_script)()
-local function DFIF_fake_script() -- OpenBut.LocalScript 
+coroutine.wrap(LFOYYR_fake_script)()
+local function EPQOOXO_fake_script() -- OpenBut.LocalScript 
 	local script = Instance.new('LocalScript', OpenBut)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -868,4 +945,4 @@ local function DFIF_fake_script() -- OpenBut.LocalScript
 
 	end)
 end
-coroutine.wrap(DFIF_fake_script)()
+coroutine.wrap(EPQOOXO_fake_script)()
