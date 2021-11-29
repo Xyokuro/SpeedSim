@@ -567,8 +567,7 @@ PrestigeFARm.MouseButton1Down:connect(function()
 		local pl= character.HumanoidRootPart
 		local destimation= CFrame.new(-1407.933, 2491.25, -1988.427)
 		local Humanoid= character.Humanoid
-
-		Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+          	Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
 		wait(0.1)
 		pl.CFrame= destimation
 	until fire==10000000000
